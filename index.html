@@ -111,9 +111,79 @@
                                 <a href="https://www.linkedin.com/in/marcin-lasek-672459245/" class="icon-block"><i class='fa fa-linkedin-square' style='font-size:36px; color:#364fce'>linkedin</i></a>
                                 <a href="https://github.com/evilmoper/Codes" class="icon-block"><i class="fa fa-github" style="font-size:48px;color:white">Github</i></a>
                         </div>
-                    </div>
+                        <h1>My Projects: </h1>
+                        <div class="menu-tabs">
+                            <button data-id="fifth-tab" onclick="showInfo('fifth-tab')" class="menu-tab  menu-tab-active">Calculator</button>
+                            <button data-id="sixth-tab" onclick="showInfo('sixth-tab')" class="menu-tab">In progress</button>
+
+                        </div>
+                        <div class="menu-section" id="fifth-tab" style="display: none;">
+                            <div id="container2">
+                                <div class="calculator">
+                                    <div class="display-field">
+                                        <div class="previous-action"></div>
+                                        <div class="current-action"></div>                     
+                                    </div>
+                                    <div>
+                                        <button class="operation">^</button>
+                                        <button class="operation">%</button>
+                                        <button class="operation">√</button>
+                                        <button class="operation">log</button>
+                                    </div>
+                                    <div>
+                                        <button class="number">7</button>
+                                        <button class="number">8</button>
+                                        <button class="number">9</button>
+                                        <button class="operation">+</button>
+                                    </div>
+                                    <div>
+                                        <button class="number">4</button>
+                                        <button class="number">5</button>
+                                        <button class="number">6</button>
+                                        <button class="operation">-</button>
+                                    </div>
+                                    <div>
+                                        <button class="number">1</button>
+                                        <button class="number">2</button>
+                                        <button class="number">3</button>
+                                        <button class="operation">X</button>
+                                    </div>
+                                    <div>
+                                        <button class="number">0</button>
+                                        <button class="number">00</button>
+                                        <button class="number">.</button>
+                                        <button class="operation">÷</button>
+                                    </div>
+                                    <div>
+                                        <button class="clear">AC</button>
+                                        <button class="delete">Delete</button>
+                                        <button class="equals">=</button>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="menu-section" id="sixth-tab" style="display: none;">
+                            <p> 
+                                February 2021-September 2022<br>
+                                Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w
+                                Krakowie <br> Technical and IT education <br> Kraków <br>
+                                Master of Engineering<br>
+                                Specialization: Internet and multimedia technologies<br><br>
+                                October 2017-February 2021<br>
+                                Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w
+                                Krakowie <br> Technical and IT education <br> Kraków <br>
+                                Bachelor of Engineering<br>
+                                Specialization: Informatics used in technology<br><br>
+                                September 2013-May 2017<br>
+                                Zespół Szkól Techniczno-Ekonomiczne w Skawinie <br>
+                                Electronics <br> Skawina<br>
+                                Technician of electronic
+                            </p>
+                        </div>
+
 
                 </div>
+                
             </div>
 
             <div class="side">
@@ -127,6 +197,7 @@
 
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="menu-tabs.js"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>
